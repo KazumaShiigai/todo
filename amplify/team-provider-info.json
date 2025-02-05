@@ -17,6 +17,12 @@
       },
       "api": {
         "todo": {}
+      },
+      "function": {
+        "HelloWorld": {
+          "deploymentBucketName": "amplify-todo-dev-e25b1-deployment",
+          "s3Key": "amplify-builds/HelloWorld-42525867534a674c4156-build.zip"
+        }
       }
     }
   },
