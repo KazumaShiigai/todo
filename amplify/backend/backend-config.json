@@ -42,5 +42,30 @@
       "providerPlugin": "awscloudformation",
       "service": "Cognito"
     }
+  },
+  "function": {
+    "HelloWorld": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_HelloWorld_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "HelloWorld"
+        }
+      ]
+    },
+    "AMPLIFY_function_HelloWorld_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "HelloWorld"
+        }
+      ]
+    }
   }
 }
